@@ -17,7 +17,7 @@ export default function DigitalBusinessWebsite() {
     { name: "DHRUVA Astronomy Club", image: "https://res.cloudinary.com/drrj8rl9n/image/upload/v1769515882/Screenshot_2026-01-27_174048_ryw8l2.png", webLink: "https://dhruva-astronomy-club.vercel.app" }
 
   ]
-  
+
   // Review Form State
   const [reviews, setReviews] = useState([
     { id: 1, name: "Rahul Sharma", business: "Sharma Medical Store", rating: 5, message: "बहुत अच्छी वेबसाइट बनाई। मोबाइल पर भी परफेक्ट दिखती है।", date: "2024-03-15" },
@@ -273,9 +273,8 @@ export default function DigitalBusinessWebsite() {
               </h1>
 
               {/* Description */}
-              <p className="text-lg sm:text-xl text-gray-300 mb-8 max-w-2xl mx-auto lg:mx-0">
-                Affordable websites starting from <span className="text-green-400 font-bold">₹2000</span>.
-                Mobile-friendly, SEO optimized, and delivered in 2-5 days.
+              <p className="text-lg sm:text-xl text-gray-300 mb-8 max-w-2xl mx-auto lg:mx-0 uppercase">
+                It's Time to Take Your <span className=' font-bold text-blue-400'>Business Online.🌐</span> Whether you run a <span >Local Shop, a Clinic , a gym , a club , a Salon, or Any business </span>,  I am here to help you scale up. Let's make your business visible to everyone in your city.
               </p>
 
               {/* CTA Buttons - Mobile Optimized */}
@@ -361,8 +360,8 @@ export default function DigitalBusinessWebsite() {
                 {/* Price Badge */}
                 <div className="absolute -top-4 -left-4 bg-gray-900 border border-gray-700 rounded-2xl p-4 shadow-2xl">
                   <div className="text-center">
-                    <p className="text-2xl font-bold text-green-400">₹2000</p>
-                    <p className="text-xs text-gray-400">Starting Price</p>
+                    <p className="text-2xl font-bold text-green-400"></p>
+                    <p className="text-xs text-gray-400 uppercase">Rajat jangra</p>
                   </div>
                 </div>
               </div>
