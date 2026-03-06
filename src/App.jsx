@@ -14,7 +14,10 @@ export default function DigitalBusinessWebsite() {
   const projects = [
     { name: "Manoj Woodworks", image: "https://res.cloudinary.com/drrj8rl9n/image/upload/v1769249381/Screenshot_2026-01-24_153641_zv1tx1.png", webLink: "https://manoj-woodworks.vercel.app" },
     { name: "Rajat web developer", image: "https://res.cloudinary.com/drrj8rl9n/image/upload/v1769515416/Screenshot_2026-01-27_173317_akoyqb.png", webLink: "https://manoj-woodworks.vercel.app" },
-    { name: "DHRUVA Astronomy Club", image: "https://res.cloudinary.com/drrj8rl9n/image/upload/v1769515882/Screenshot_2026-01-27_174048_ryw8l2.png", webLink: "https://dhruva-astronomy-club.vercel.app" }
+    { name: "DHRUVA Astronomy Club", image: "https://res.cloudinary.com/drrj8rl9n/image/upload/v1769515882/Screenshot_2026-01-27_174048_ryw8l2.png", webLink: "https://dhruva-astronomy-club.vercel.app" },
+    { name: "The ShriramFoundation School", image: "https://res.cloudinary.com/drrj8rl9n/image/upload/v1772793593/Screenshot_2026-03-06_160535_uk0dia.png", webLink: "https://www.theshriramfoundationschool.in" },
+    { name: "Raahi Ecommers", image: "https://res.cloudinary.com/drrj8rl9n/image/upload/v1772793951/Screenshot_2026-03-06_161449_kaxxtw.png", webLink: "https://rm-com.vercel.app" },
+    { name: "Content Creater", image: "https://res.cloudinary.com/drrj8rl9n/image/upload/v1772794112/Screenshot_2026-03-06_161754_mqym5b.png", webLink: "https://modren-frountend-ui.vercel.app" },
 
   ]
 
@@ -438,73 +441,7 @@ export default function DigitalBusinessWebsite() {
         </div>
       </section>
 
-      {/* ========== PRICING SECTION ========== */}
-      <section id="pricing" className="py-16 sm:py-20 px-4 sm:px-6 lg:px-8 bg-gray-900/50">
-        <div className="max-w-7xl mx-auto">
-          <div className="text-center mb-12 sm:mb-16 space-y-4">
-            <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold">Simple <span className="bg-gradient-to-r from-blue-400 to-purple-400 bg-clip-text text-transparent">Pricing</span></h2>
-            <p className="text-base sm:text-lg md:text-xl text-gray-400 max-w-2xl mx-auto">
-              Transparent pricing with no hidden costs. Choose the plan that fits your business.
-            </p>
-          </div>
-
-          <div className="grid md:grid-cols-3 gap-6 sm:gap-8">
-            {pricingPlans.map((plan, index) => (
-              <div
-                key={index}
-                className={`relative bg-gray-900 border rounded-xl p-6 sm:p-8 ${plan.popular
-                  ? 'border-blue-500 shadow-xl shadow-blue-500/20 scale-105'
-                  : 'border-gray-800'
-                  }`}
-              >
-                {plan.popular && (
-                  <div className="absolute -top-4 left-1/2 transform -translate-x-1/2">
-                    <span className="bg-gradient-to-r from-blue-600 to-purple-600 px-4 py-1 rounded-full text-sm font-semibold">
-                      Most Popular
-                    </span>
-                  </div>
-                )}
-
-                <div className="text-center mb-6 sm:mb-8">
-                  <h3 className="text-xl sm:text-2xl font-bold mb-4">{plan.name}</h3>
-                  <div className="flex items-center justify-center space-x-2">
-                    <span className="text-gray-400 text-lg sm:text-xl">₹</span>
-                    <span className="text-4xl sm:text-5xl font-bold">{plan.price}</span>
-                  </div>
-                  <p className="text-sm text-gray-400 mt-2">One-time payment</p>
-                </div>
-
-                <ul className="space-y-3 sm:space-y-4 mb-6 sm:mb-8">
-                  {plan.features.map((feature, idx) => (
-                    <li key={idx} className="flex items-start space-x-3">
-                      <Check className="w-5 h-5 text-green-400 flex-shrink-0 mt-0.5" />
-                      <span className="text-sm sm:text-base text-gray-300">{feature}</span>
-                    </li>
-                  ))}
-                </ul>
-
-                <a
-                  href="#contact"
-                  className={`block w-full py-3 sm:py-4 rounded-lg font-semibold text-center transition-all duration-300 ${plan.popular
-                    ? 'bg-gradient-to-r from-blue-600 to-purple-600 hover:shadow-lg hover:shadow-blue-500/50'
-                    : 'bg-gray-800 hover:bg-gray-700 border border-gray-700'
-                    }`}
-                >
-                  Get Started
-                </a>
-              </div>
-            ))}
-          </div>
-
-          {/* Referral Bonus */}
-          <div className="mt-12 sm:mt-16 bg-gradient-to-r from-blue-500/10 to-purple-500/10 border border-blue-500/20 rounded-xl p-6 sm:p-8 text-center">
-            <h3 className="text-xl sm:text-2xl font-bold mb-3 sm:mb-4">🎁 Referral Bonus</h3>
-            <p className="text-base sm:text-lg text-gray-300">
-              Refer another business and get <span className="text-blue-400 font-bold">1 YEAR FREE</span> website maintenance!
-            </p>
-          </div>
-        </div>
-      </section>
+      \
 
       {/* ========== PORTFOLIO SECTION ========== */}
       <section id="myworks" className="py-16 sm:py-20 px-4 sm:px-6 lg:px-8">
@@ -584,141 +521,7 @@ export default function DigitalBusinessWebsite() {
         </div>
       </section>
 
-      {/* ========== ADD REVIEW SECTION (NEW) ========== */}
-      <section id="add-review" className="py-16 px-4 bg-gray-900/50">
-        <div className="max-w-6xl mx-auto">
-          <div className="grid lg:grid-cols-2 gap-12">
 
-
-
-            {/* Review Guidelines & Recent Reviews */}
-            <div className="space-y-8">
-              <div className="bg-gray-900 border border-gray-800  p-6 sm:p-8">
-                <h3 className="text-2xl font-bold mb-6">Review Guidelines</h3>
-                <ul className="space-y-4">
-                  <li className="flex items-start gap-3">
-                    <Check className="w-6 h-6 text-green-400 mt-1 flex-shrink-0" />
-                    <p className="text-gray-300">Please use your real name and business name</p>
-                  </li>
-                  <li className="flex items-start gap-3">
-                    <Check className="w-6 h-6 text-green-400 mt-1 flex-shrink-0" />
-                    <p className="text-gray-300">Be honest about your experience</p>
-                  </li>
-                  <li className="flex items-start gap-3">
-                    <Check className="w-6 h-6 text-green-400 mt-1 flex-shrink-0" />
-                    <p className="text-gray-300">Your review helps other local businesses</p>
-                  </li>
-                  <li className="flex items-start gap-3">
-                    <Check className="w-6 h-6 text-green-400 mt-1 flex-shrink-0" />
-                    <p className="text-gray-300">Reviews are displayed with business name for trust</p>
-                  </li>
-                </ul>
-              </div>
-
-              {/* Recent Reviews */}
-              <div className="bg-gray-900 border border-gray-800  p-6 sm:p-8">
-                <h3 className="text-2xl font-bold mb-6">Recent Reviews</h3>
-                <div className="space-y-6">
-                  {reviews.slice(0, 3).map((review) => (
-                    <div key={review.id} className="border-b border-gray-800 pb-6 last:border-0">
-                      <div className="flex justify-between items-start mb-3">
-                        <div>
-                          <h4 className="font-bold">{review.name}</h4>
-                          <p className="text-blue-300 text-sm">{review.business}</p>
-                        </div>
-                        <div className="flex">
-                          {renderStars(review.rating)}
-                        </div>
-                      </div>
-                      <p className="text-gray-400">"{review.message}"</p>
-                      <p className="text-sm text-gray-500 mt-2">{review.date}</p>
-                    </div>
-                  ))}
-                </div>
-              </div>
-            </div>
-            {/* Review Form */}
-            <div className="bg-gray-900 border border-gray-800  p-6 sm:p-8">
-              <h2 className="text-3xl font-bold mb-8 flex items-center gap-3">
-                <MessageCircle className="text-blue-400" />
-                Add Your Review
-              </h2>
-
-              <form onSubmit={handleReviewSubmit} className="space-y-6">
-                <div className="grid sm:grid-cols-2 gap-6">
-                  <div>
-                    <label className="block text-gray-300 mb-3 font-medium flex items-center gap-2">
-                      <User size={18} /> Your Name *
-                    </label>
-                    <input
-                      type="text"
-                      value={formData.name}
-                      onChange={(e) => setFormData({ ...formData, name: e.target.value })}
-                      placeholder="Enter your name"
-                      className="w-full bg-gray-800 border border-gray-700 rounded-xl p-4 text-white focus:ring-2 focus:ring-blue-500 focus:outline-none"
-                      required
-                    />
-                  </div>
-
-                  <div>
-                    <label className="block text-gray-300 mb-3 font-medium flex items-center gap-2">
-                      <Briefcase size={18} /> Business Name *
-                    </label>
-                    <input
-                      type="text"
-                      value={formData.business}
-                      onChange={(e) => setFormData({ ...formData, business: e.target.value })}
-                      placeholder="Your shop/business name"
-                      className="w-full bg-gray-800 border border-gray-700 rounded-xl p-4 text-white focus:ring-2 focus:ring-blue-500 focus:outline-none"
-                      required
-                    />
-                  </div>
-                </div>
-
-                <div>
-                  <label className="block text-gray-300 mb-3 font-medium">Rating</label>
-                  <div className="flex gap-2 mb-2">
-                    {[1, 2, 3, 4, 5].map((star) => (
-                      <button
-                        key={star}
-                        type="button"
-                        onClick={() => setFormData({ ...formData, rating: star })}
-                        className="text-3xl hover:scale-110 transition-transform"
-                      >
-                        <Star
-                          size={32}
-                          className={star <= formData.rating ? "text-yellow-400 fill-yellow-400" : "text-gray-600"}
-                        />
-                      </button>
-                    ))}
-                  </div>
-                  <p className="text-sm text-gray-400">{formData.rating} out of 5 stars</p>
-                </div>
-
-                <div>
-                  <label className="block text-gray-300 mb-3 font-medium">Your Review *</label>
-                  <textarea
-                    rows="5"
-                    value={formData.message}
-                    onChange={(e) => setFormData({ ...formData, message: e.target.value })}
-                    placeholder="Share your experience with our service..."
-                    className="w-full bg-gray-800 border border-gray-700 rounded-xl p-4 text-white focus:ring-2 focus:ring-blue-500 focus:outline-none"
-                    required
-                  ></textarea>
-                </div>
-
-                <button
-                  type="submit"
-                  className="w-full bg-gradient-to-r from-blue-600 to-cyan-600 hover:from-blue-700 hover:to-cyan-700 text-white font-bold py-4 px-6 rounded-xl text-lg flex items-center justify-center gap-3 transition-all duration-300"
-                >
-                  <Send size={20} />
-                  Submit Review
-                </button>
-              </form>
-            </div>
-          </div>
-        </div>
-      </section>
 
       {/* ========== SKILLS & EDUCATION SECTION (NEW) ========== */}
       <section id="skills" className="py-16 px-4 bg-gray-900">
