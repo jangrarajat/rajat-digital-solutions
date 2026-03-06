@@ -216,7 +216,7 @@ export default function DigitalBusinessWebsite() {
 
             {/* Desktop Menu */}
             <div className="hidden md:flex space-x-8">
-              {['Home', 'MyWorks', 'Services', 'Pricing', 'Reviews', 'Skills', 'Contact'].map((item) => (
+              {['Home', 'MyWorks', 'Services',  'Reviews', 'Skills', 'Contact'].map((item) => (
                 <a
                   key={item}
                   href={`#${item.toLowerCase()}`}
@@ -290,10 +290,10 @@ export default function DigitalBusinessWebsite() {
                   <ArrowRight className="w-5 h-5" />
                 </a>
                 <a
-                  href="#pricing"
+                  href="#myworks"
                   className="px-8 py-4 bg-gray-800 hover:bg-gray-700 border border-gray-700 rounded-xl font-bold text-lg transition-all"
                 >
-                  View Pricing Plans
+                  View Works
                 </a>
               </div>
 
@@ -303,7 +303,7 @@ export default function DigitalBusinessWebsite() {
                   { icon: <Smartphone />, text: "Mobile Friendly" },
                   { icon: <Zap />, text: "Fast Loading" },
                   { icon: <IndianRupee />, text: "Affordable" },
-                  { icon: <Van />, text: "2-5 Days" }
+                  { icon: <Van />, text: "Fast Delivery" }
                 ].map((feature, idx) => (
                   <div key={idx} className="bg-gray-800/50 p-3 rounded-sm flex items-center gap-1 uppercase border border-gray-700 text-center">
                     <div className="text-2xl mb-2">{feature.icon}</div>
@@ -808,7 +808,7 @@ export default function DigitalBusinessWebsite() {
                 </div>
               </div>
               <p className="text-sm text-gray-400">
-                Helping local businesses grow online with professional digital solutions.
+                Helping businesses grow online with professional digital solutions.
               </p>
             </div>
 
@@ -830,7 +830,7 @@ export default function DigitalBusinessWebsite() {
               <ul className="space-y-2 text-sm text-gray-400">
                 <li>Website Development</li>
                 <li>Google Maps Setup</li>
-                <li>Local SEO</li>
+                <li>Google SEO</li>
                 <li>WhatsApp Integration</li>
               </ul>
             </div>
@@ -838,7 +838,7 @@ export default function DigitalBusinessWebsite() {
             <div>
               <h4 className="font-semibold mb-4">Contact</h4>
               <ul className="space-y-2 text-sm text-gray-400">
-                <li>Behror , Kotputli, Rajasthan</li>
+                <li>Behror , Kotputli, Rajasthan 301701</li>
                 <li>+91 7357167649</li>
                 <li>rajatwebdeveloper49@gmail.com</li>
               </ul>
