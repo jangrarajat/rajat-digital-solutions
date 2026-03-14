@@ -13,7 +13,7 @@ export default function DigitalBusinessWebsite() {
 
   const projects = [
     { name: "Manoj Woodworks", image: "https://res.cloudinary.com/drrj8rl9n/image/upload/v1769249381/Screenshot_2026-01-24_153641_zv1tx1.png", webLink: "https://manoj-woodworks.vercel.app" },
-    { name: "Rajat web developer", image: "https://res.cloudinary.com/drrj8rl9n/image/upload/v1769515416/Screenshot_2026-01-27_173317_akoyqb.png", webLink: "https://manoj-woodworks.vercel.app" },
+    { name: "Rajat web developer", image: "https://res.cloudinary.com/drrj8rl9n/image/upload/v1769515416/Screenshot_2026-01-27_173317_akoyqb.png", webLink: "https://rajat-digital-solutions.vercel.app" },
     { name: "The ShriramFoundation School", image: "https://res.cloudinary.com/drrj8rl9n/image/upload/v1772793593/Screenshot_2026-03-06_160535_uk0dia.png", webLink: "https://www.theshriramfoundationschool.in" },
     { name: "Raahi Ecommers", image: "https://res.cloudinary.com/drrj8rl9n/image/upload/v1772793951/Screenshot_2026-03-06_161449_kaxxtw.png", webLink: "https://rm-com.vercel.app" },
 
