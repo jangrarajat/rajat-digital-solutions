@@ -164,7 +164,7 @@ export default function DigitalBusinessWebsite() {
     { number: "50+", label: "Happy Clients" },
     { number: "100%", label: "Satisfaction Rate" },
     { number: "24/7", label: "Website Uptime" },
-    { number: "2-5 Days", label: "Delivery Time" }
+    { number: "Dynamic Delivery Scheduling", label: "Delivery Time" }
   ];
 
   const skills = {
