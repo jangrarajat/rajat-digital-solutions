@@ -391,7 +391,7 @@ export default function DigitalBusinessWebsite() {
         <h3 className="text-3xl font-extrabold  mb-4 text-center ">Why Choose Us?</h3>
         <ul className="space-y-3 flex flex-col  items-start p-10 md:items-center gap-3">
           {[
-            '2-5 Days Fast Delivery',
+            'Dynamic Delivery Scheduling',
             'Affordable Pricing',
             '100% Satisfaction Guaranteed',
             'Free Support ',
