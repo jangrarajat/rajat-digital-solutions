@@ -18,6 +18,8 @@ export default function DigitalBusinessWebsite() {
     { name: "The ShriramFoundation School", image: "https://res.cloudinary.com/drrj8rl9n/image/upload/v1772793593/Screenshot_2026-03-06_160535_uk0dia.png", webLink: "https://www.theshriramfoundationschool.in" },
     { name: "Raahi Ecommers", image: "https://res.cloudinary.com/drrj8rl9n/image/upload/v1772793951/Screenshot_2026-03-06_161449_kaxxtw.png", webLink: "https://rm-com.vercel.app" },
     { name: "Content Creater", image: "https://res.cloudinary.com/drrj8rl9n/image/upload/v1772794112/Screenshot_2026-03-06_161754_mqym5b.png", webLink: "https://modren-frountend-ui.vercel.app" },
+    { name: "IGNIS VENTURES MEDIA", image: "https://res.cloudinary.com/drrj8rl9n/image/upload/v1774156212/WhatsApp_Image_2026-03-22_at_10.39.25_AM_ucpfp1.jpg", webLink: "https://ignis-media.vercel.app" },
+
 
   ]
 
@@ -216,7 +218,7 @@ export default function DigitalBusinessWebsite() {
 
             {/* Desktop Menu */}
             <div className="hidden md:flex space-x-8">
-              {['Home', 'MyWorks', 'Services',  'Reviews', 'Skills', 'Contact'].map((item) => (
+              {['Home', 'MyWorks', 'Services', 'Reviews', 'Skills', 'Contact'].map((item) => (
                 <a
                   key={item}
                   href={`#${item.toLowerCase()}`}
