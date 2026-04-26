@@ -12,13 +12,14 @@ export default function DigitalBusinessWebsite() {
   const [currentTestimonial, setCurrentTestimonial] = useState(0);
 
   const projects = [
-    { name: "Manoj Woodworks", image: "https://res.cloudinary.com/drrj8rl9n/image/upload/v1769249381/Screenshot_2026-01-24_153641_zv1tx1.png", webLink: "https://manoj-woodworks.vercel.app" },
-    { name: "Rajat web developer", image: "https://res.cloudinary.com/drrj8rl9n/image/upload/v1769515416/Screenshot_2026-01-27_173317_akoyqb.png", webLink: "https://manoj-woodworks.vercel.app" },
-    { name: "DHRUVA Astronomy Club", image: "https://res.cloudinary.com/drrj8rl9n/image/upload/v1769515882/Screenshot_2026-01-27_174048_ryw8l2.png", webLink: "https://dhruva-astronomy-club.vercel.app" },
-    { name: "The ShriramFoundation School", image: "https://res.cloudinary.com/drrj8rl9n/image/upload/v1772793593/Screenshot_2026-03-06_160535_uk0dia.png", webLink: "https://www.theshriramfoundationschool.in" },
-    { name: "Raahi Ecommers", image: "https://res.cloudinary.com/drrj8rl9n/image/upload/v1772793951/Screenshot_2026-03-06_161449_kaxxtw.png", webLink: "https://rm-com.vercel.app" },
-    { name: "Content Creater", image: "https://res.cloudinary.com/drrj8rl9n/image/upload/v1772794112/Screenshot_2026-03-06_161754_mqym5b.png", webLink: "https://modren-frountend-ui.vercel.app" },
-    { name: "IGNIS VENTURES MEDIA", image: "https://res.cloudinary.com/drrj8rl9n/image/upload/v1774156212/WhatsApp_Image_2026-03-22_at_10.39.25_AM_ucpfp1.jpg", webLink: "https://ignis-media.vercel.app" },
+    { name: "SARTI PHYSIOTHERAPY", image: "https://res.cloudinary.com/dfqsa6hoc/image/upload/v1777213924/Screenshot_2026-04-26_200143_nhvoqs.png", webLink: "https://sarti-physiotherapy.vercel.app" },
+    { name: "The ShriramFoundation School", image: "https://res.cloudinary.com/dfqsa6hoc/image/upload/v1777214242/Screenshot_2026-04-26_200712_ga1g59.png", webLink: "https://www.theshriramfoundationschool.in" },
+    { name: "SRI CHAITANYA ACADEMY KOTPUTLI", image: "https://res.cloudinary.com/dfqsa6hoc/image/upload/v1777214342/Screenshot_2026-04-26_200849_bbkwnn.png", webLink: "https://www.srichaitanyakotputli.com/" },
+    { name: "Manoj Woodworks", image: "https://res.cloudinary.com/dfqsa6hoc/image/upload/v1777213818/Screenshot_2026-04-26_195943_n61qkk.png", webLink: "https://manoj-woodworks.vercel.app" },
+    { name: "Rajat web developer", image: "https://res.cloudinary.com/dfqsa6hoc/image/upload/v1777214106/Screenshot_2026-04-26_200453_fsmvof.png", webLink: "https://manoj-woodworks.vercel.app" },
+    // { name: "DHRUVA Astronomy Club", image: "https://res.cloudinary.com/drrj8rl9n/image/upload/v1769515882/Screenshot_2026-01-27_174048_ryw8l2.png", webLink: "https://dhruva-astronomy-club.vercel.app" },
+    // { name: "Content Creater", image: "https://res.cloudinary.com/drrj8rl9n/image/upload/v1772794112/Screenshot_2026-03-06_161754_mqym5b.png", webLink: "https://modren-frountend-ui.vercel.app" },
+    { name: "IGNIS VENTURES MEDIA", image: "https://res.cloudinary.com/dfqsa6hoc/image/upload/v1777214199/Screenshot_2026-04-26_200626_cmzto8.png", webLink: "https://ignis-media.vercel.app" },
 
 
   ]
@@ -344,7 +345,7 @@ export default function DigitalBusinessWebsite() {
                     className="w-full h-full object-cover"
                     onError={(e) => {
                       e.target.onerror = null;
-                      e.target.src = "https://res.cloudinary.com/drrj8rl9n/image/upload/c_fill,ar_1:1,g_auto/v1769510165/IMG_3496_ogequx.jpg";
+                      e.target.src = "https://res.cloudinary.com/dobxire9c/image/upload/q_auto/f_auto/v1776245623/IMG_3496_pkftbc.jpg";
                     }}
                   />
                 </div>
@@ -443,7 +444,7 @@ export default function DigitalBusinessWebsite() {
         </div>
       </section>
 
-      \
+      
 
       {/* ========== PORTFOLIO SECTION ========== */}
       <section id="myworks" className="py-16 sm:py-20 px-4 sm:px-6 lg:px-8">
@@ -457,7 +458,8 @@ export default function DigitalBusinessWebsite() {
 
           <div className="grid md:grid-cols-3 gap-6 sm:gap-8">
             {projects.map((item, index) => (
-              <div
+              <a
+                href={item.webLink}
                 key={index}
                 className="group bg-gray-900 border border-gray-800  overflow-hidden hover:border-blue-500/50 transition-all duration-300"
               >
@@ -475,7 +477,7 @@ export default function DigitalBusinessWebsite() {
                     <ExternalLink className="w-4 h-4" />
                   </a>
                 </div>
-              </div>
+              </a>
             ))}
           </div>
         </div>
