@@ -22,7 +22,7 @@ export default function DigitalBusinessWebsite() {
     { name: "Rajat web developer", image: "https://res.cloudinary.com/dfqsa6hoc/image/upload/v1777214106/Screenshot_2026-04-26_200453_fsmvof.png", webLink: "https://manoj-woodworks.vercel.app" },
     { name: "IGNIS VENTURES MEDIA", image: "https://res.cloudinary.com/dfqsa6hoc/image/upload/v1777214199/Screenshot_2026-04-26_200626_cmzto8.png", webLink: "https://ignis-media.vercel.app" },
     { name: "RM Smart Solution of Transport business", image: "https://res.cloudinary.com/dfqsa6hoc/image/upload/v1779723330/Screenshot_2026-05-25_210453_twxzzt.png", webLink: "https://taransport-solutions-client-g1lq.vercel.app" },
-    { name: "Aurix ai software company", image: "https://res.cloudinary.com/dfqsa6hoc/image/upload/v1779723623/Screenshot_2026-05-25_210925_cnbqy0.png", webLink: "https://www.aurixaisoftware.com" },
+    { name: "Aurix ai software company", image: "https://res.cloudinary.com/dfqsa6hoc/image/upload/v1779723623/Screenshot_2026-05-25_210925_cnbqy0.png", webLink: "https://aurix-client-1.vercel.app" },
     { name: "Rahi Ecommers ", image: "https://res.cloudinary.com/dfqsa6hoc/image/upload/v1779724167/Screenshot_2026-05-25_211454_yoiehg.png", webLink: "https://raahi-latest.onrender.com" },
 
   ];
